@@ -35,3 +35,6 @@ select * from addressbook where state='Haryana';
 select count(*) from addressbook where city='Bengaluru' and state='Karnataka';
 
 select * from addressbook where city='Bengaluru' order by first_name;
+
+alter table addressbook add type varchar(20) after last_name;
+describe addressbook;
