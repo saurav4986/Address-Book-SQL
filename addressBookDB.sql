@@ -17,9 +17,9 @@ create table addressbook(
 show tables;
 
 insert into addressbook (first_name,last_name,address,city,state,zip,phone_number,email)
- values ('Ankit','Kumar','ABCcolony','Faridabad','Haryana',424002,99113329,'kankit40@gmail.com'),
- ('Sahil','Khan','XYZ Nagar','Hyderabad','Telangana',451006,77750353,'sahilkhan1994@gmail.com'),
- ('Saurav','Raj','BTM','Bengaluru','Karnataka',560076,93375649,'saurav.raj4986@gmail.com');
+ values ('Aniket','Kumar','ABCcolony','Faridabad','Haryana',424002,987513329,'aniket@gmail.com'),
+ ('Sahil','Khan','XYZ Nagar','Bengaluru','Karnataka',451006,77750353,'sahilkhan1994@gmail.com'),
+ ('Rohit','Kr','BTM','Bengaluru','Karnataka',560076,75649564,'rohit@gmail.com');
  
  select * from addressbook;
 
@@ -33,3 +33,5 @@ select * from addressbook where city='Bengaluru';
 select * from addressbook where state='Haryana';
 
 select count(*) from addressbook where city='Bengaluru' and state='Karnataka';
+
+select * from addressbook where city='Bengaluru' order by first_name;
