@@ -31,3 +31,5 @@ select * from addressbook;
 
 select * from addressbook where city='Bengaluru';
 select * from addressbook where state='Haryana';
+
+select count(*) from addressbook where city='Bengaluru' and state='Karnataka';
