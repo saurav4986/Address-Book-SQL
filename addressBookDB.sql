@@ -28,3 +28,6 @@ select * from addressbook;
 
 delete from addressbook where first_name='Sahil';
 select * from addressbook;
+
+select * from addressbook where city='Bengaluru';
+select * from addressbook where state='Haryana';
