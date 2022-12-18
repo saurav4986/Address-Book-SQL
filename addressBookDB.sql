@@ -38,3 +38,7 @@ select * from addressbook where city='Bengaluru' order by first_name;
 
 alter table addressbook add type varchar(20) after last_name;
 describe addressbook;
+
+update addressbook set type='Professional' where id=3 or id=7 or id=8 or id=9;
+
+select count(type) as Count,type from addressbook group by type;
