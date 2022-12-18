@@ -22,3 +22,6 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
  ('Saurav','Raj','BTM','Bengaluru','Karnataka',560076,93375649,'saurav.raj4986@gmail.com');
  
  select * from addressbook;
+
+update addressbook set city='Bengaluru' where first_name='Saurav';
+select * from addressbook;
