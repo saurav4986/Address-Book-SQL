@@ -25,3 +25,6 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
 
 update addressbook set city='Bengaluru' where first_name='Saurav';
 select * from addressbook;
+
+delete from addressbook where first_name='Sahil';
+select * from addressbook;
